@@ -56,7 +56,7 @@ class Calculator(App):
                 self.display.text="Error"
         elif instance.text=="C":
             self.display.text=""
-        elif instance.text=="⌫":
+        elif instance.text=="Del":
             self.display.text=self.display.text[:-1]
         elif instance.text=="%":
             self.display.text=str(float(self.display.text)/100)
